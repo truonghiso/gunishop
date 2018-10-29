@@ -1,0 +1,16 @@
+<html>
+<body>
+<input id="myinput">
+
+	<script >
+document.getElementById("myinput").onkeypress=function(event)
+{
+	if( event.keyCode == 13){
+
+	window.open("https://google.com/search?q="+event.target.value, "_blank");
+}
+}
+
+</script>
+</body>
+</html>
